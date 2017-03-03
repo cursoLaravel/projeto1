@@ -1,9 +1,9 @@
 #Projeto simples utilizando Laravel 5.4
 
-* Pré requisitos
-
-1- Composer instalado.
-2- PHP 5.6 ou superior.
+Pré requisitos
+---
+ * Composer instalado.
+ * PHP 5.6 ou superior.
 
 
 Bom, para iniciar utilizando esse projeto basta baixar o zip aqui no github depois descompactar.
@@ -17,7 +17,7 @@ Para baixar toda o framework.
 
 Depois basta executar o comando:
 
-~~~php
+~~~text
 	php artisan serve 
 ~~~
 
