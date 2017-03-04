@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('usuario', 'UsuarioController@getAll');
+
+Route::get('usuario/{id}', 'UsuarioController@get');
+
+Route::post('usuario', 'UsuarioController@salvar');
+
+Route::put('usuario/{id}', 'UsuarioController@atualizar');
