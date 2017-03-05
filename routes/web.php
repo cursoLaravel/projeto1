@@ -15,6 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route::group(['middleware' => 'cors'], function(Router $router){
+//     $router->get('usuario', 'UsuarioController@getAll');
+// 	$router->get('usuario/{id}', 'UsuarioController@get');
+// 	$router->post('usuario', 'UsuarioController@salvar');
+// 	$router->put('usuario/{id}', 'UsuarioController@atualizar');
+
+// });
+
+
+
 Route::get('usuario', 'UsuarioController@getAll');
 
 Route::get('usuario/{id}', 'UsuarioController@get');
